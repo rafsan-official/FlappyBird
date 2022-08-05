@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59efd1f4-e293-4753-a777-854e2a350896" name="Default Changelist" comment="" />
+    <list default="true" id="bcf8f70f-f047-4269-8094-9eccbbf2a44f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1z8ANPm3Qk59rlofXL6hqV3nEU5" />
+  <component name="ProjectId" id="1xAlqniNfKt0PCiPsIo5iFIOPI0" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,9 +33,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.flappy">
-    <configuration name="flappy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlappyBird_Python-master" />
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlappyBird" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -49,29 +47,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flappy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flappy_update" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FlappyBird_Python-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flappy_update.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,8 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flappy" />
-        <item itemvalue="Python.flappy_update" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -92,49 +67,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59efd1f4-e293-4753-a777-854e2a350896" name="Default Changelist" comment="" />
-      <created>1633519300944</created>
+      <changelist id="bcf8f70f-f047-4269-8094-9eccbbf2a44f" name="Default Changelist" comment="" />
+      <created>1629805966974</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1633519300944</updated>
-      <workItem from="1633519303475" duration="2047000" />
-      <workItem from="1633523322142" duration="6258000" />
-      <workItem from="1633530008156" duration="135000" />
-      <workItem from="1633530176773" duration="6040000" />
-      <workItem from="1633572277030" duration="1308000" />
-      <workItem from="1634668542443" duration="998000" />
-      <workItem from="1634669889636" duration="2932000" />
-      <workItem from="1634781914521" duration="1984000" />
-      <workItem from="1634784660556" duration="1523000" />
-      <workItem from="1635408055100" duration="748000" />
-      <workItem from="1635436827325" duration="403000" />
-      <workItem from="1635778508875" duration="10391000" />
-      <workItem from="1635790128715" duration="83000" />
-      <workItem from="1635790376702" duration="18000" />
+      <updated>1629805966974</updated>
+      <workItem from="1629805974180" duration="2597000" />
+      <workItem from="1629812962513" duration="3353000" />
+      <workItem from="1629887380458" duration="4701000" />
+      <workItem from="1629912056553" duration="565000" />
+      <workItem from="1629912747188" duration="1884000" />
+      <workItem from="1629964798472" duration="3011000" />
+      <workItem from="1630416510366" duration="424000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlappyBird_Python_master$flappy_update.coverage" NAME="flappy_update Coverage Results" MODIFIED="1633529876262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlappyBird$flappy.coverage" NAME="flappy Coverage Results" MODIFIED="1635790383551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlappyBird_$flappy.coverage" NAME="flappy Coverage Results" MODIFIED="1634668769521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlappyBird_$flappy_update.coverage" NAME="flappy_update Coverage Results" MODIFIED="1633530067836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FlappyBird_Python_master$flappy.coverage" NAME="flappy Coverage Results" MODIFIED="1633523738906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBird$main.coverage" NAME="main Coverage Results" MODIFIED="1630416927743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
