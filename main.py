@@ -5,15 +5,19 @@ def base_movement(window, base_img, var_x): #animated base
     #second window which will join base as merge
     window.blit(base_img, (var_x+336, 640 - 112)) #here 336 = base image's width
 
-
 def bird_momvent(window, bird_img, bird_rect):
-    window.blit(bird_img,bird_rect)
-
+    window.blit(bird_img,bird_rect) #display bird image
 
 def game_build(): #method create
 
     pygame.init() #initialize pygame
     window = pygame.display.set_mode((336,640)) #display size
+
+    #background music
+    pygame.mixer.init() #initialize music
+    pygame.mixer.music.load("gallery\\music\\rafsan.mp3") #music selection
+    pygame.mixer.music.set_volume(0.5) # range will be 0 to 1.. depends on volume
+    pygame.mixer.music.play(3) # 3 times continious play... if i put nothing... then it will play 1 time...
 
 
     bkg_img = pygame.image.load("gallery\\images\\bg.png") #background load
@@ -21,11 +25,9 @@ def game_build(): #method create
     base_img = pygame.image.load("gallery\\images\\base.png") #base image
     var_x= 0
 
-
     # bird
-    bird_img = pygame.image.load("gallery\\images\\bird.png")
-    bird_rect = bird_img.get_rect(center = (336/2,640/2))
-
+    bird_img = pygame.image.load("gallery\\images\\bird.png") #bird image load
+    bird_rect = bird_img.get_rect(center=(336/2,640/2)) #get rectangle function,
 
     #main loop
     clock = pygame.time.Clock() #control frame rate of the screen
@@ -48,18 +50,13 @@ def game_build(): #method create
         if var_x <= -336: #when base image is gone upto it's total width 336
             var_x= 0 #then base image animation will start from begin
 
-
-
-        #bird movment
-        bird_momvent(window, bird_img, bird_rect)
-
-
-
+        # bird movment
+        bird_momvent(window, bird_img, bird_rect) #call the function
 
 
         clock.tick(60) #frame rate... if i take low then it will lag, if i take high value, then it will run faster
 
-        # #updating screen
+        # updating screen
         pygame.display.update()
 
     pygame.quit() #uninitialize pygame

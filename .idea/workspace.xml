@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf8f70f-f047-4269-8094-9eccbbf2a44f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +20,7 @@
   </component>
   <component name="JupyterTrust" id="34705a8d-ac1b-425e-8b54-b0a58dc50a45" />
   <component name="ProjectId" id="1xAlqniNfKt0PCiPsIo5iFIOPI0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,6 +29,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -57,7 +71,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,37 +89,21 @@
       <workItem from="1629912747188" duration="1884000" />
       <workItem from="1629964798472" duration="3011000" />
       <workItem from="1630416510366" duration="424000" />
-      <workItem from="1630480142275" duration="1489000" />
-      <workItem from="1630483987834" duration="1949000" />
+      <workItem from="1630480142275" duration="1098000" />
+      <workItem from="1630512831750" duration="3827000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom" timestamp="1630485676269">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630485676269" />
-    <state width="1491" height="211" key="GridCell.Tab.0.center" timestamp="1630485676269">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630485676269" />
-    <state width="1491" height="211" key="GridCell.Tab.0.left" timestamp="1630485676269">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630485676269" />
-    <state width="1491" height="211" key="GridCell.Tab.0.right" timestamp="1630485676269">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630485676269" />
     <state x="559" y="16" key="SettingsEditor" timestamp="1630483205612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="559" y="16" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1630483205612" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlappyBird$main.coverage" NAME="main Coverage Results" MODIFIED="1630485951822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlappyBird$main.coverage" NAME="main Coverage Results" MODIFIED="1630523300530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
